@@ -1,0 +1,106 @@
+.main-page {
+    background: rgb(28, 25, 67);
+    background: rgb(2, 1, 10);
+    background: linear-gradient(to top, rgba(2, 1, 10, 1) 0%, rgba(0, 0, 3, 1) 0%, rgba(1, 0, 17, 1) 32%, rgba(5, 4, 26, 1) 100%);
+}
+
+.temporary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 2, 3, 0.5) 100%, rgba(1, 1, 28, 0.5) 30%, rgba(0, 0, 0, 0.2) 50%, rgba(1, 0, 17, 0.2) 100%) !important;
+
+}
+
+.temporary img {
+    position: absolute;
+    z-index: 1;
+}
+
+.temporary-two {
+    z-index: 1;
+
+}
+
+.hero-slide {
+    margin-top: -92px;
+}
+
+.footer-class {
+    margin-top: 50px;
+    position: relative;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/574/383/desktop-wallpaper-movie-poster-mix-of-movies.jpg);
+    background-size: cover;
+}
+
+.footer-class::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    opacity: 1;
+}
+
+.to-put-hover img {
+    transition: ease-in-out;
+    transition-duration: 100ms;
+}
+
+.to-put-hover img:hover {
+    border: 4px solid rgb(0, 233, 233);
+    filter: brightness(0.6);
+}
+
+.pop-outin {
+    animation: 3.3s anim-popoutin ease infinite;
+}
+
+@keyframes anim-popoutin {
+    0% {
+        color: black;
+        transform: scale(0);
+        opacity: 0;
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+
+
+    50% {
+        color: skyblue;
+        transform: scale(1);
+        opacity: 1;
+        text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+
+
+}
+
+.pop-outin-two {
+    animation: 3.4s anim-popoutin ease infinite;
+}
+
+@keyframes anim-popoutin-two {
+    0% {
+        color: black;
+        transform: scale(0);
+        opacity: 0;
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+
+
+    50% {
+        color: skyblue;
+        transform: scale(1);
+        opacity: 1;
+        text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+
+
+}
